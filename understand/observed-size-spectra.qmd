@@ -12,9 +12,9 @@ In this tutorial you will take observational data of fish sizes and plot the res
 
 3\)  To avoid the dependence on bin sizes, we use **densities**, where the total number of individuals or the total biomass of individuals in each bin is divided by the width of the bin. We refer to these as the number density and the biomass density respectively.
 
-3\)  The number density looks very different from the biomass density. There will be a lot of very small individuals, so the number density at small sizes will be large, but each individual weighs little, so their total biomass will not be large. 
+4\)  The number density looks very different from the biomass density. There will be a lot of very small individuals, so the number density at small sizes will be large, but each individual weighs little, so their total biomass will not be large. 
 
-5\)  Community size spectra are approximately power laws. When displayed on log-log axes, they look like straight lines. The slope of the number density is approximately -2, the slope of the biomass density is approximately -1.
+5\)  A community size spectra refers to the distribution of abundance or biomass across different body sizes within an entire ecological community. Community size spectra are approximately power laws. When displayed on log-log axes, they look like straight lines. The slope of the number density is approximately -2, the slope of the biomass density is approximately -1.
 
 6\)  When we work with a logarithmic weight axis, then it is natural to use densities in log weight, where the numbers of individuals in each bin are divided by the width of the bin on the log axis. We refer to these as the number density in log weight or the biomass density in log weight respectively. The slope of the number density in log weight is approximately -1 and the slope of the biomass density in log weight is approximately 0, i.e., the biomass density in log weight is approximately constant. The latter is called the Sheldon spectrum.
 
