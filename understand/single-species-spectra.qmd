@@ -514,7 +514,7 @@ plotSpectra2(params, name1 = "Early maturity",
              power = 2, resource = FALSE, wlim = c(10, NA))
 ```
 
-As expected, the bump happens later due to the larger maturity size and it is less steep, because the maturity curve is less steep. This means that fish do not suddenly start investing most of their energy into reproduction, but still keep growing while they are maturity. Since they are still growing they will be moving from one size class to another and fewer individuals will accumulate in one size class.
+As expected, the bump happens later due to the larger maturity size and it is less steep, because the maturity curve is less steep. This means that fish do not suddenly start investing most of their energy into reproduction, but still keep growing while they are maturing. Since they are still growing they will be moving from one size class to another and fewer individuals will accumulate in one size class.
 
 This was our first investigation of how the shape of a species size spectrum changes as model parameters are changed. We will do much more in this direction in the next tutorial in which we discuss how growth and mortality are determined through predation.
 
