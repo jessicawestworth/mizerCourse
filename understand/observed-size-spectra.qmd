@@ -18,9 +18,9 @@ In this tutorial you will take observational data of fish sizes and plot the res
 
 6\)  When we work with a logarithmic weight axis, then it is natural to use densities in log weight, where the numbers of individuals in each bin are divided by the width of the bin on the log axis. We refer to these as the number density in log weight or the biomass density in log weight respectively. The slope of the number density in log weight is approximately -1 and the slope of the biomass density in log weight is approximately 0, i.e., the biomass density in log weight is approximately constant. The latter is called the Sheldon spectrum.
 
-7\) The value reported for size-spectrum exponent depends strongly on the methodology used to obtain it. You need to be aware of this when comparing exponents from different papers.
+7\)  The value reported for size-spectrum exponent depends strongly on the methodology used to obtain it. You need to be aware of this when comparing exponents from different papers.
 
-8\)  Unlike the community spectrum, the individual species size spectra are not approximately power laws and thus do not look like straight lines on log-log axes. The approximate power law only emerges when we add all the species spectra together.
+8\)  Unlike the community spectrum, the size spectra of an individual species are not approximate power laws and thus do not appear as straight lines on log-log axes. The approximate power law only emerges when we add all the species spectra together.
 
 ## Introduction
 
