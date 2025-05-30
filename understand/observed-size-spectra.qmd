@@ -603,6 +603,8 @@ So Sheldon's observation that $B_{\log w}(w)$ is approximately constant over a l
 - The slope of the biomass density and the number density in log weight is approximately -1.
 - The slope of the biomass density in log weight is approximately 0, i.e., the biomass density in log weight is approximately constant.
 
+This finding is fundamental in size spectrum modelling, as it provides a way to represent the background community in which a species lives and feeds upon. Sheldon’s observation, that the exponent lambda of the power-law relationship between body size and biomass density in log weight is approximately 2 across all marine ecosystems, allows us to approximate the size structure of this background community without requiring high-resolution species-specific data. This generalization makes it easy to embed one or more focal species into an ecologically realistic background community.  In the next tutorial, this concept will become more concrete as we explore a model of a single species living within an unchanging background community set to a Sheldon power-law abundance.
+
 ## Size spectra of individual species
 
 So far we have looked at the community spectrum, where we ignored the species identity of the fish. We will now look at the spectra of the individual species. We'll plot them all on the same graph and display them with [plotly](https://plotly.com/r/) so that you can hover over the resulting graph to see which line corresponds to which species. We also include the community size spectrum in black for comparison. The lines look smoother than earlier because now we use kernel density estimation rather than binning to estimate the densities.
