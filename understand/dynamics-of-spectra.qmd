@@ -130,7 +130,7 @@ animateSpectra(sim_lessRes, total = TRUE, power = 2,
                ylim = c(1e-8, NA), wlim = c(1e-3, NA))
 ```
 
-Note that now the fish species whose access to resources was decreased continue to decrease in abundance as time goes on. Interestingly, species 1 appears to be driven to extinction by the increased abundance of its predators that in turn is due to the decrease in predation from the larger species.
+Note that now the fish species whose access to resources was decreased continue to decrease in abundance as time goes on. Interestingly, species 1 appears to now be approaching extinction by the increased abundance of its predators that in turn is due to the decrease in predation from the larger species.
 
 Given that reproduction has such an important impact on the response of species to fishing, it is worth taking a look at how reproduction is modelled in mizer.
 
