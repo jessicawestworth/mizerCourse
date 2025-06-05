@@ -140,7 +140,7 @@ Of these four factors, we have already been discussing the density of prey. In t
 
 ### The predation kernel
 
-Fish will be particularly good at catching prey in a specific range of sizes, smaller than themselves. This is encoded in the size-spectrum model by the predation kernel. Let us take a look at the predation kernel in our model. We can obtain it with the function `getPredKernel()`.
+Fish will be particularly good at catching prey in a specific range of sizes, smaller than themselves. This is encoded in the size-spectrum model by the predation kernel. The predation kernel determines the prey size preference of a predator based on their respective body sizes. It will determine the preferred predator to prey size ratio of a predator of a particular size as well as the range of prey sizes a predator of a given size may consume. Let us take a look at the predation kernel in our model. We can obtain it with the function `getPredKernel()`.
 
 ```{r}
 pred_kernel <- getPredKernel(params)
