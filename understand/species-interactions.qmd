@@ -217,6 +217,8 @@ plotSpectra2(mp_lessRes_steady, name1 = "less resource",
              total = TRUE, power = 2, ylim = c(1e-8, NA), wlim = c(1e-3, NA))
 ```
 
+Note, for some species size spectra at the largest size class drop all the way to very small values (e.g. 10^-7) and for others they stop higher. This is just a discretisation artefact and is not important. Try to ignore it.
+
 There is much to see in this graph. We can see how the reduction in the abundance of large individuals leads to undulations in fish and resource size spectra, compared to the original model.
 
 
