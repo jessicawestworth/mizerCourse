@@ -6,6 +6,13 @@ In this hands-on online course you will learn about the principles of size based
 
 The course material was adapted from two previous three-week courses in [August 2022](https://mizer.course.aug22.sizespectrum.org) and in [November 2022](https://mizer.course.nov22.sizespectrum.org/).
 
+## Introduction to the mizer framework
+
+Size spectrum modelling aims to characterize the distribution of organisms across different size classes within an ecosystem to better understand its structure and dynamics. Body size is a fundamental biological trait, as it influences key life processes such as metabolism, growth, reproduction and mortality. It also plays a central role in ecological interactions, particularly predation.
+
+In predator-prey relationships, an organisms’ body size largely determines both the potential prey an organism can consume and the predators it is consumed by. This size-based structure underpins many of the emergent patterns seen in food webs and energy transfer within ecosystems.
+
+Mizer is a modelling framework that leverages these principles to simulate marine ecosystems. It uses size spectrum theory to represent populations and communities as well as observational data to calibrate various species traits. Attempting to reproduce ecosystem dynamics, structure, and functioning within a dynamic model. Through this mizer can explore how changes in fishing pressure, resource availability, and species traits affect ecosystem functioning and resilience. Therefore, allowing the prediction of potential consequences of anthropogenic influences and ecological changes.
 
 ## Tutorials
 
