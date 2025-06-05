@@ -149,6 +149,8 @@ The initial slope of the species biomass density is also negative, meaning that 
 
 We can also plot the biomass density in log weight, i.e., the Sheldon spectrum, by supplying the argument `power = 2` to `plotSpectra()`.
 
+Additionally, from this point forward in the course, biomass density in log weight will often be referred to as simply biomass density for brevity. To determine which meaning is intended in a given context, refer to the y-axis of the accompanying figure: if units [g] are provided, the term refers to biomass density in log weight; if no units are shown, we are referring to biomass density in the non-log sense.  If this does not sound familiar, please refer to the first tutorial where we denote the units of the different densities.
+
 ```{r}
 plotSpectra(params, power = 2)
 ```
