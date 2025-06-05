@@ -271,7 +271,7 @@ Go back to the example with fishing on individuals above 1kg from the section on
 # We make a copy of the trait-based model
 mp_fishing <- mp
 # Set the reproduction level set to 0.5 for all species
-mp_fishing <- setBevertonHolt(mp, reproduction_level = 0.5)
+mp_fishing <- setBevertonHolt(mp_fishing, reproduction_level = 0.5)
 # Set fishing effort to 1
 initial_effort(mp_fishing) <- 1
 
